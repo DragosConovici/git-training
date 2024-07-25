@@ -4,12 +4,13 @@ public static void main(String[] args) {
 
     // Esempio di concatenazione di stringhe
     String concatenated = concatenateStrings(str1, str2);
-    System.out.println("Concatenated: " + concatenated);
+    System.out.println("Concatenated: " + Concatenated Modificato);
 
     // Esempio di conversione in maiuscolo
     String upperCase = toUpperCase(concatenated);
     System.out.println("Upper Case: " + upperCase);
     //maiuscolo e minuscolo
+    System.out.println("Upper Case: " + UpperCasa);
 
     // Esempio di verifica se una stringa contiene un'altra stringa prova
     boolean contains = containsSubstring(upperCase, "MONDO");
