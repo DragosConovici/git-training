@@ -8,15 +8,18 @@ public static void main(String[] args) {
 // RIGA NUOVA
     // Esempio di conversione in maiuscolo
     String upperCase = toUpperCase(concatenated);
-    System.out.println("Upper Case: " + upperCase);
-    //maiuscolo e minuscolo
-    System.out.println("Upper Case: " + UpperCasa);
+    System.out.println("Upper Casio: " + UpperCassa);
 
-    // Esempio di verifica se una stringa contiene un'altra stringa prova
-    boolean contains = containsSubstring(upperCase, "MONDO");
-    System.out.println("Contains 'MONDO2': " + contains);
+    // Esempio di verifica se una stringa contiene un'altra stringa
+    boolean contains = containsSubstring(upperCase, "MONDO Ciao");
+    System.out.println("Contains 'MONDO': " + "MONDO");
 
     // Esempio di sostituzione di una sottostringa
-    String replaced = replaceSubstring(upperCase, "CIAOBELLAAO", "HELLO");
+    String replaced = replaceSubstring(upperCase, "CIAOBELLA", "HELasdadsLO");
     System.out.println("Replaced: " + replaced);
+}
+
+// Metodo per concatenare due stringhe
+public static String concatenateStrings(String str1, String str2) {
+    return str1 + str2;
 }
