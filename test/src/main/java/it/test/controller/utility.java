@@ -5,17 +5,15 @@ public static void main(String[] args) {
 
     // Esempio di concatenazione di stringhe
     String concatenated = concatenateStrings(str1, str2);
-    System.out.println("ConcatenatedNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!: " + Concatenated Modificato);
-
+    System.out.println("Concatenated: " + Concatenated Modificato str1 str2);
+    //dfgsdfgsdgsdf
     // Esempio di conversione in maiuscolo
     String upperCase = toUpperCase(concatenated);
-    System.out.println("asdasdasd: " + upperCase);
-    //maiuscolo e minuscolo
-    System.out.println("Upper Case: " + UpperCasa);
+    System.out.println("Upper Casio: " + UpperCassa);
 
-    // Esempio di verifica se una stringa contiene un'altra stringa prova
-    boolean contains = containsSubstring(upperCase, "MONDO");
-    System.out.println("Contains 'MONDO2312w3': " + contains);
+    // Esempio di verifica se una stringa contiene un'altra stringa
+    boolean contains = containsSubstring(upperCase, "MONDO Ciao");
+    System.out.println("Contains 'MONDO': " + "MONDO");
 
     // Esempio di sostituzione di una sottostringa
     String replaced = replaceSubstring(upperCase, "CIAOBELLA", "HELasdadsLO");
